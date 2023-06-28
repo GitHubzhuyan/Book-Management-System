@@ -1,0 +1,119 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ddd;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+input[type=text], select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type=submit] {
+    background-color: skyblue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-container{
+    margin: 100px auto;
+    width: 400px;
+    text-align: center;
+}
+
+.login-container h2{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.form-group label{
+    display: inline-block;
+    width: 70px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form-group input{
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #333;
+}
+.form-group select {
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #333;
+}
+.btn{
+    display: block;
+    margin: 30px auto 0;
+    width: 100%;
+    max-width: 280px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2c3e50;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #1c2b38;
+}
